@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem 0;
+}
+
+section#courses {
+    background: #e9ecef;
+}
+
+section#lessons {
+    background: #f8f9fa;
+}
+
+section#quizzes {
+    background: #e9ecef;
+}
+
+section#dashboard {
+    background: #f8f9fa;
+}
+
+section#teachers {
+    background: #e9ecef;
+}
+
+.course, .lesson, .quiz, .teacher {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem 0;
+    background: #fff;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
